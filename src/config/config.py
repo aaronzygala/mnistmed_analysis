@@ -7,9 +7,9 @@ class Config:
     # Default arguments for main program
     DEFAULT_DATA_FLAG = "pathmnist"
     DEFAULT_OUTPUT_ROOT = "./output"
-    DEFAULT_NUM_EPOCHS = 5
+    DEFAULT_NUM_EPOCHS = 20
     DEFAULT_IMAGE_SIZE = 28
     DEFAULT_GPU_IDS = '0'
-    DEFAULT_BATCH_SIZE = 128
+    DEFAULT_BATCH_SIZE = 512
     DEFAULT_MODEL_FLAG = 'resnet18'
     DEFAULT_MODEL_NAME = 'model1'

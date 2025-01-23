@@ -33,18 +33,18 @@ python main.py
 
 | Argument Name    | Command Line Syntax     | Description                                                                                    |
 |------------------|-------------------------|------------------------------------------------------------------------------------------------|
-| Data Flag        | --data_flag <string>    | The name of the **2D dataset** to use in the experiment. Full list of names found in MedMNIST github. |
-| Output Root      | --output_root <string>  | Where to save the models and results                                                           |
-| Number of Epochs | --num_epochs <int>      | Number of epochs for training, script will only test the model if it is set to 0               |
-| Size             | --size <int>            | The image size of the dataset. Can be 28, 64, 128, or 224. (default = 28)                      |
-| GPU Ids          | --gpu_ids <str>         | The ids of the gpus you would like to use for training                                         |
-| Batch Size       | --batch_size <int>      | The size of training batches                                                                   |
+| Data Flag        | --data_flag {STRING}    | The name of the **2D dataset** to use in the experiment. Full list of names found in MedMNIST github. |
+| Output Root      | --output_root {STRING}  | Where to save the models and results                                                           |
+| Number of Epochs | --num_epochs {INTEGER}      | Number of epochs for training, script will only test the model if it is set to 0               |
+| Size             | --size {INTEGER}            | The image size of the dataset. Can be 28, 64, 128, or 224. (default = 28)                      |
+| GPU Ids          | --gpu_ids {STRING}         | The ids of the gpus you would like to use for training                                         |
+| Batch Size       | --batch_size {INTEGER}      | The size of training batches                                                                   |
 | Download         | --download              | Use this boolean flag if you want to download the dataset                                      |
 | Resize           | --resize                | Use this boolean flag if you want to resize images from 28x28 to 224x224                       |
 | As RGB           | --as_rgb                | This boolean flag converts grayscale images to rgb                                             |
-| Model Path       | --model_path <str>      | Defines a model path of pretrained model to use for testing                                    |
-| Model Flag       | --model_flag <str>      | Choose between Resnet18 or Resnet50                                                            |
-| Run              | --run <str>             | Used to name the output csv eval file                                                          |
+| Model Path       | --model_path {STRING}      | Defines a model path of pretrained model to use for testing                                    |
+| Model Flag       | --model_flag {STRING}      | Choose between Resnet18 or Resnet50                                                            |
+| Run              | --run {STRING}             | Used to name the output csv eval file                                                          |
 
 
 ## Reproduction Steps & Results
